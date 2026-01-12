@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fafafa;
+    color: #333;
+}
+
+header {
+    background: #ff5722;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.feature {
+    background: #fff;
+    padding: 1rem;
+    text-align: center;
+    width: 45%;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background: #ff5722;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Navigation Link Glow Effect */
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    text-shadow: none;
+}
+
+/* Glow on Hover */
+nav a:hover {
+    color: #fff;
+    text-shadow: 
+        0 0 5px #fff,
+        0 0 10px #ffeb3b,
+        0 0 15px #ffeb3b,
+        0 0 20px #ff5722,
+        0 0 25px #ff5722;
+}
